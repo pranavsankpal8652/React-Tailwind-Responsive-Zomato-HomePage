@@ -1,0 +1,61 @@
+
+.bg_image{
+    background: url('../images/81f3ff974d82520780078ba1cfbd453a1583259680.webp') center  no-repeat;
+    background-size: cover;
+}
+.logo_img{
+    width: 350px;
+    animation: blur 1.5s linear !important;
+}
+
+select,input{
+    outline:none;
+    border: none;
+}
+.zomato{
+    font-size:100px;
+    color: red;
+}
+.font{
+    font-size: 17px;
+}
+.arrow{
+    right: 1%;
+    top: 50%;
+}
+.radio{
+   scale: 1.5;
+}
+.fq-question button{
+    font-size: 19px;
+}
+.food_submenu{
+    top: 100%;
+    width: 100%;
+    min-height:200px;
+}
+.scaleup{
+    scale:1;
+}
+.scaleDown{
+    scale:0;
+   
+}
+@keyframes blur{
+    from{
+        filter: blur(3px);
+    }
+    to{
+        filter: blur(0px);
+    }
+}
+@media  only screen and (min-width:320px) and (max-width:769px) {
+    .logo_img{
+        width: 200px;
+    }
+    .collec_row{
+        gap: 20px;
+    }
+   
+    
+}
