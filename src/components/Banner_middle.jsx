@@ -102,7 +102,7 @@ export default function Banner_middle() {
                 <Col lg={12}>
                     {
                       Foods.map((food,index)=>{
-                        console.log(food.name)
+                        // console.log(food.name)
                         return(
                             <React.Fragment key={index}>
                                <h6 role='button'>{food.name}</h6>
